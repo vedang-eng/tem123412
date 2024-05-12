@@ -6,7 +6,7 @@ const verifying = require('../middleware/verifcation');
 routingCompont.get("/", verifying, (req, res) => {
     res.send("This is the get request ");
 })
-
+// This the commet
 routingCompont.post("/onehand", async (req, res) => {
     try {
         const body = req.body;
